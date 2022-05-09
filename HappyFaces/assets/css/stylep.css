@@ -1,0 +1,190 @@
+/* Basic CSS*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navigation bar */
+.nav {
+    background-color: black;
+    position: sticky;
+    top:0;
+}
+    
+.f-rt {
+    float: right; 
+}
+      
+.f-lt {
+    float: left;
+}
+      
+.ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+.menu {
+    list-style-type: none;
+    color: black;
+    margin: 1px 40;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f28 {
+    font-size: 28px;
+}
+
+.ff1 {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.ff2 {
+    font-family: Courier, monospace;
+}
+
+.ff3 {
+    font-family: Optima;
+}
+
+ul {
+    list-style: none;
+}
+
+a > li {
+    display: inline-block;
+    color: #ce8464;
+    text-decoration: underline;
+    text-underline-position: under;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+
+
+/* For skills & Education */
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 2em;
+}
+
+.item1{
+    grid-column: 1 / 1;
+    grid-row: 1 / 5;
+    padding: 1em;
+}
+
+.item2{
+    grid-column: 2 / 4;
+    padding: 1em;
+}
+
+.item3{
+    grid-column: 2 / 3; 
+    padding: 1em;
+}
+
+.item4{
+    grid-column: 3 / 4;
+    padding: 1em;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 12px;
+    padding: 1em;
+    letter-spacing: 3px; 
+}
+
+.btn:hover {
+    opacity: 1;
+    transition-duration: 0.7s;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10em;
+}
+
+
+
+
+
+.project-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr) ; 
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 20px;
+    padding: 3% 15%;
+}
+
+.font {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+
+.imga {
+    width: 100%;
+    height: 8em;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px black;
+}
+
+.t1 {
+  font-size: 32px;
+}
+  
+.t2{
+  font-size: 16px;
+}
+
+span {
+    border: 3px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(46, 139, 87);
+}
+  
+.high {
+    box-shadow: 0 2px 2px black;
+    border-radius: 10px;
+    background-color: #d6f7f7;
+
+}
